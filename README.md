@@ -1,4 +1,4 @@
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=TO_BE_UPDATED)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=education/codespaces-project-template-dotnet) 
 
 # .NET (Blazor) Portfolio Site with GitHub Codespaces
 
@@ -6,10 +6,10 @@ _Create, customize and deploy your own portfolio website in minutes._ ✨
 
 In this template repository we have the development environment and base set and ready to go. So that you can immediately launch the Codespaces to customize with no setup.
 
-* **Who is this for?** __Anyone__ looking to create a portfolio site, learn web development, or test out Codespaces.
-* **How much experience do you need?** __Zero__. You decide how much you want to customize based on your experience, and time available.
-* **Tools needed:** _None_. No need to install anything! All you need is a web browser.
-* **Prerequisites:** _None_. This template includes your development environment and deployable web app for you to create your own site.
+- **Who is this for?** __Anyone__ looking to create a portfolio site, learn web development, or test out Codespaces.
+- **How much experience do you need?** __Zero__. You decide how much you want to customize based on your experience, and time available.
+- **Tools needed:** _None_. No need to install anything! All you need is a web browser.
+- **Prerequisites:** _None_. This template includes your development environment and deployable web app for you to create your own site.
 
 ## About this portfolio template
 
@@ -20,16 +20,19 @@ In this "choose your own adventure" template portfolio, we have a [Blazor](https
 ### Quick Start
 
 1. Click the **Use this Template** button
-2. Select the repository owner (e.g. your GitHub account)
-3. Enter a unique name for your new repository
-4. Click the **Code** button
-5. Click **Create Codespace on main** button
+
+   [![Use this Template](/images/template-button.svg)](https://github.com/education/codespaces-project-template-dotnet/generate)
+
+1. Select the repository owner (e.g. your GitHub account)
+1. Enter a unique name for your new repository
+1. Click the **Code** button
+1. Click **Create Codespace on main** button
 1. [Customize your portfolio site](#-customize-your-site-in-4-steps)
 1. [Deploy your site](#-deploy-your-web-application)
 
 <details>
    <summary><b>🎥 To learn more about Codespaces, watch our video tutorial series</b></summary>
-   
+
    [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
 </details>
 
@@ -41,15 +44,15 @@ This repo is a GitHub template to build a .NET personal portfolio frontend web a
 
 The repo contains the following:
 
-* `/.devcontainer`
+- `/.devcontainer`
   - `.devcontainer/Dockerfile`: Configuration file used by Codespaces to determine operating system and other details.
   - `.devcontainer/devcontainer.json`: Configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
-  - `.devcontainer/post-create.sh`: Configuration file used by Codespaces to install additional tools, such as PowerShell.
-* `/src`: Blazor WebAssembly project to build your portfolio site.
-* `.editorconfig`: Settings for [EditorConfig](https://editorconfig.org/) that helps maintain consistent coding styles in Codespaces.
-* `global.json`: Settings for the Blazor WebAssembly app to avoid using pre-released .NET version.
-* `swa-cli.config.json`: Settings for [Azure SWA CLI](https://azure.github.io/static-web-apps-cli/) to run the Blazor WebAssembly app on your Codespaces.
-* `MyPortfolio.sln`: The solution file that contains the Blazor WebAssembly application project.
+  - `.devcontainer/on-create.sh`: Configuration file used by Codespaces to install additional tools, such as PowerShell.
+- `/src`: Blazor WebAssembly project to build your portfolio site.
+- `.editorconfig`: Settings for [EditorConfig](https://editorconfig.org/) that helps maintain consistent coding styles in Codespaces.
+- `global.json`: Settings for the Blazor WebAssembly app to avoid using pre-released .NET version.
+- `swa-cli.config.json`: Settings for [Azure SWA CLI](https://azure.github.io/static-web-apps-cli/) to run the Blazor WebAssembly app on your Codespaces.
+- `MyPortfolio.sln`: The solution file that contains the Blazor WebAssembly application project.
 
 <br />
 
@@ -59,23 +62,23 @@ This portfolio site project is filled with sample data so that you can immediate
 
 Your development environment is all set for you to start. Based on our [.NET Codespaces Template](https://github.com/education/codespaces-teaching-template-dotnet), here is what's already setup and ready for you to use:
 
-* Simple [Blazor WebAssembly](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) application with components for each section of the portfolio site
-* [SWA CLI](https://azure.github.io/static-web-apps-cli/) in place to build your site when deploying
-* Code linting and formatting using [EditorConfig](https://editorconfig.org/) for code consistency.
+- Simple [Blazor WebAssembly](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) application with components for each section of the portfolio site
+- [SWA CLI](https://azure.github.io/static-web-apps-cli/) in place to build your site when deploying
+- Code linting and formatting using [EditorConfig](https://editorconfig.org/) for code consistency.
 
 ### Create your portfolio
 
 1. Create a repository from this template. Use this [create repo link](https://github.com/education/codespaces-teaching-template-dotnet/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
-2. Navigate to the main page of the newly created repository.
-3. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
+1. Navigate to the main page of the newly created repository.
+1. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
 
-    <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create codespace" style="width:270px;"/>
-    
-4. Wait as GitHub initializes the Codespaces.
+    <img src="./images/new-codespace-button.png" alt="Create codespace" style="width:270px;"/>
+
+1. Wait as GitHub initializes the Codespaces.
 
     <img src="./images/codespaces-initializing.png" alt="Codespaces initializing" style="width: 600px;"/>
-    
-5. When complete you will see your Codespaces load with a terminal section at the bottom. Here you will see `dotnet restore && dotnet build` executing. When complete you will return to the terminal prompt where you can run the web application by executing: `swa start`.
+
+1. When complete you will see your Codespaces load with a terminal section at the bottom. Here you will see `dotnet restore && dotnet build` executing. When complete you will return to the terminal prompt where you can run the web application by executing: `swa start`.
 
    When the web application is started you will see a prompt telling you it started successfully on port 4280, and you can open that site within your browser:
 
@@ -85,9 +88,9 @@ Your development environment is all set for you to start. Based on our [.NET Cod
 
 ## ✨ Customize your site in 4 steps
 
-This project is built to be easily customizable. Each section of the site is a separate component, and your information needs to be set in only one spot. This is not only for ease of updating, but so you can see how prop values are passed to React components.
+This project is built to be easily customizable. Each section of the site is a separate component, and your information needs to be set in only one spot. This is not only for ease of updating, but so you can see how values are passed to Blazor components.
 
-For each step, open the project in Codespaces, then you can make and commit your changes while within your Codespaces. 
+For each step, open the project in Codespaces, then you can make and commit your changes while within your Codespaces.
 
 > See [Using source control in your codespaces](https://docs.github.com/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) for more Codespaces source control how-tos
 
@@ -152,10 +155,9 @@ Open `/src/BlazorApp/wwwroot/sample-data/heroimages.json` and update images with
 
 The about section helps to give people a bit more information about your skills and passions. Open `/src/BlazorApp/wwwroot/sample-data/aboutme.json` and update those 3 properties:
 
-* `description`: short sentence or two describing yourself, career goal, and/or passions
-* `skillsList`: an [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) of your skills to list on the site, can be as many or little as you wish
-* `detailOrQuote`: longer block for you to add more detail about yourself, or even a quote you like
-
+- `description`: short sentence or two describing yourself, career goal, and/or passions
+- `skillsList`: an [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) of your skills to list on the site, can be as many or little as you wish
+- `detailOrQuote`: longer block for you to add more detail about yourself, or even a quote you like
 
 ### 4️⃣ Add items you've worked on and detail text
 
@@ -202,8 +204,8 @@ Project includes the setup needed for you to deploy **free** to both [Azure Stat
 
 You'll need both Azure and GitHub accounts to deploy your web application. If you don't yet have an Azure account you can create it from within during the deploy process, or from below links:
 
-* [Create a (no Credit Card required) Azure For Students account](https://azure.microsoft.com/free/students/?WT.mc_id=dotnet-82024-juyoo)
-* [Create a new Azure account](https://azure.microsoft.com/free/?WT.mc_id=dotnet-82024-juyoo)
+- [Create a (no Credit Card required) Azure For Students account](https://azure.microsoft.com/free/students/?WT.mc_id=dotnet-82024-juyoo)
+- [Create a new Azure account](https://azure.microsoft.com/free/?WT.mc_id=dotnet-82024-juyoo)
 
 With your project open in Codespaces:
 
@@ -262,30 +264,31 @@ Your environment comes with preinstalled extensions. You can change which extens
 
 1. Open file _.devcontainer/devcontainer.json_ and locate the following JSON element **extensions**
 
-   ```jsonc
-   "extensions": [
-     "ms-dotnettools.csharp",
-     "ms-vscode.PowerShell",
-     "ms-vscode.vscode-node-azure-pack",
-     "VisualStudioExptTeam.vscodeintellicode"
-   ]
-   ```
+    ```jsonc
+    "extensions": [
+      "GitHub.copilot",
+      "GitHub.copilot-chat",
+      "ms-dotnettools.csdevkit",
+      "ms-vscode.PowerShell",
+      "ms-vscode.vscode-node-azure-pack",
+      "VisualStudioExptTeam.vscodeintellicode"
+    ]
+    ```
 
 1. Let's add the `indent-rainbow` extension. To do this, go to the **extensions** list and add:
 
-   ```jsonc
-   "oderwat.indent-rainbow"
-   ```
+    ```jsonc
+    "oderwat.indent-rainbow"
+    ```
   
    What you did above was to add the unique identifier of an extension of the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=dotnet-82024-juyoo). This will let Codespaces know that this extension should be pre-installed upon startup.
 
 To find the unique identifier of an extension:
 
-* Navigate to the extension's web page, like so [https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=dotnet-82024-juyoo)
-* Locate the _Unique Identifier_ field under **More info** section on your right side.
-   
-> 💡 Learn more here, <https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
+- Navigate to the extension's web page, like so [https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=dotnet-82024-juyoo)
+- Locate the _Unique Identifier_ field under **More info** section on your right side.
 
+> 💡 Learn more here, <https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
 ### 2. Update to smooth scroll to a section
 
@@ -305,7 +308,7 @@ Your site should already be running in your Codespaces, and the change will relo
 
 ### 3. Animate desk photo
 
-Animations are a way you can easily add some motion to elements on your page to increase user interactivity and highlight items you want to make sure they notice. Let's animate the desk photo in the portfolio section. 
+Animations are a way you can easily add some motion to elements on your page to increase user interactivity and highlight items you want to make sure they notice. Let's animate the desk photo in the portfolio section.
 
 1. Open your site's stylesheet, `/src/BlazorApp/wwwroot/css/app.css` within your Codespaces. Add the animation sequence by adding a `@keyframes` definition to slide in from the left:
 
@@ -336,7 +339,6 @@ Your site should already be running in your Codespaces, and the change will relo
 
 > 🤩 **Bonus**: Animate scroll down arrow
 
-
 ### 4. Add a new section
 
 We started you off with a few basic sections for your portfolio site, but you have creative freedom to make it your own and add new sections relevant to what you want on your site.
@@ -359,18 +361,17 @@ For an example, let's add an education section to your portfolio site.
     <Education />
     ```
 
-In your Codespaces, your portfolio application should be running and will reload your site with the changes. 
-
+In your Codespaces, your portfolio application should be running and will reload your site with the changes.
 
 <br />
 
 ## 📚 Resources
 
-* [GitHub Codespaces docs overview](https://docs.github.com/codespaces/overview)
-* [GitHub Codespaces guides](https://docs.github.com/codespaces/guides)
-* [Use dev containers locally with VS Code and Docker](https://github.com/microsoft/vscode-remote-try-dotnet#vs-code-dev-containers)
-* [Get started with Blazor](https://learn.microsoft.com/training/paths/build-web-apps-with-blazor/?WT.mc_id=dotnet-82024-juyoo)
-* [Web Development for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
+- [GitHub Codespaces docs overview](https://docs.github.com/codespaces/overview)
+- [GitHub Codespaces guides](https://docs.github.com/codespaces/guides)
+- [Use dev containers locally with VS Code and Docker](https://github.com/microsoft/vscode-remote-try-dotnet#vs-code-dev-containers)
+- [Get started with Blazor](https://learn.microsoft.com/training/paths/build-web-apps-with-blazor/?WT.mc_id=dotnet-82024-juyoo)
+- [Web Development for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
 
 > #### Codespaces Browser App
 >
